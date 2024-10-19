@@ -538,20 +538,6 @@
 (custom-set-face! :StatusLineDiagnosticError [:bold]
                   {:fg oxocarbon.base10 :bg oxocarbon.base00})
 
-;; telescope
-
-(custom-set-face! :TelescopeBorder [] {:fg oxocarbon.blend :bg oxocarbon.blend})
-(custom-set-face! :TelescopePromptBorder [] {:fg oxocarbon.base02 :bg oxocarbon.base02})
-(custom-set-face! :TelescopePromptNormal [] {:fg oxocarbon.base05 :bg oxocarbon.base02})
-(custom-set-face! :TelescopePromptPrefix [] {:fg oxocarbon.base08 :bg oxocarbon.base02})
-(custom-set-face! :TelescopeNormal [] {:fg oxocarbon.none :bg oxocarbon.blend})
-(custom-set-face! :TelescopePreviewTitle [] {:fg oxocarbon.base02 :bg oxocarbon.base12})
-(custom-set-face! :TelescopePromptTitle [] {:fg oxocarbon.base02 :bg oxocarbon.base11})
-(custom-set-face! :TelescopeResultsTitle [] {:fg oxocarbon.blend :bg oxocarbon.blend})
-(custom-set-face! :TelescopeSelection [] {:fg oxocarbon.none :bg oxocarbon.base02})
-(custom-set-face! :TelescopePreviewLine [] {:fg oxocarbon.none :bg oxocarbon.base01})
-(custom-set-face! :TelescopeMatching [:bold :italic] {:fg oxocarbon.base08 :bg oxocarbon.none})
-
 ;; notify
 
 (custom-set-face! :NotifyERRORBorder [] {:fg oxocarbon.base08 :bg oxocarbon.none})
